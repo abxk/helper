@@ -1,0 +1,31 @@
+{
+    "name": "abxk/helper",
+    "description": "tools",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lixuecong",
+            "email": "1126392029@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "abxk\\": "src/"
+        },
+        "files": ["src/helper.php"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "abxk\\test\\": "test/"
+        }
+    },
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3",
+        "mockery/mockery": "^1.5",
+        "symfony/var-dumper": "^5.4"
+    }
+}
